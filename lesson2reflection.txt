@@ -1,0 +1,7 @@
+----------------------
+What happens when you initialize a repository? Why do you need to do it?
+
+When we initialize the repository, it creates a .git hidden file. This file will be used by Git later to do the version control. 
+
+git init 
+is used to initialize the repository. Only after the initialization can we track changes and do every other jobs related to git version control (e.g., git log, git status, etc). 
