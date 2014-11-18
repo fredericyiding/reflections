@@ -36,4 +36,11 @@ git log --graph --oneline master other_branch_name :
 gives us a tree-like structure that tells us the lineage of the commits. We can easily identify the parent of each commit and trace back to the initial commit.
 
 ----------------------
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result of mergin two branches is that we now have a master commit that contains the features of both branches. 
+The way Git does is to compare the changes and based on whether or not the programers added/deleted/kept the lines.
+The diagram gives us a better way to understand the lineage and track changes between the commit of interest with the previous commits, esp., its parent commit.
+
+----------------------
 
