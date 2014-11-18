@@ -20,4 +20,21 @@ The staging area acts as a butter. Instead of commit all the files in the folder
 WIthout the staging area, we would have to commit everything in the folder, which might not be clear enough, or might be more than one logical change.
 
 ----------------------
-  
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Bascially, whenever we want to make some experimental changes, we need a branch.This includes creating new features that are experimental, or adding a new language etc.
+
+Context switching.
+
+Work on a new feature, work on a bug.
+
+Keep your project organized, particularly when you share your project publicly. You have a master branch, which will be your production quality branch that never breaks, always works. Then we can keep a developing branch, experimental branch, unique feature branches. You can share these with the public, the understanding ones.
+----------------------
+How do the diagrams help you visualize the branch structure?
+
+git log --graph --oneline master other_branch_name :
+gives us a tree-like structure that tells us the lineage of the commits. We can easily identify the parent of each commit and trace back to the initial commit.
+
+----------------------
+
+
