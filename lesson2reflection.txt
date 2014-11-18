@@ -13,4 +13,11 @@ How is the staging area different from the working directory and the repository?
 It gives us more flexibility and control by using the STAGING AREA instead of the WORKING DIRECTORY to create the commit. We can specify exactly WHAT CHANGES TO BE COMMITTED.
 
 ----------------------
- 
+How can you use the staging area to make sure you have one commit per logical change?
+
+The staging area acts as a butter. Instead of commit all the files in the folder, you can choose those files that have been changed and which can reflect this specific logical step.
+
+WIthout the staging area, we would have to commit everything in the folder, which might not be clear enough, or might be more than one logical change.
+
+----------------------
+  
