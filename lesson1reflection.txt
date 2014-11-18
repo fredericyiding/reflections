@@ -1,0 +1,58 @@
+Reflect: Using diff to Find Bugs
+-----------------
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+diff can help us find the lines that we have changed from last version. 
+While some lines are added and fixed intentionally, 
+others (especially those with bugs) are tweaked in a wrong way.
+
+By comparing the diff between two versions, we can pinpoint these bugs more easily.
+
+------------------
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+For starters, the history of the file contains some old files that have been proven to be working.
+We can always go back to that version if the new version doesn't work.
+Plus, even if we don't want to go back, the old versions can serve as reference.
+We can find the bugs for the new files much more easily.
+
+------------------
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+The pros for manually creating a commit:
+1. keep it logical (Google docs will save partially finished docs)
+
+The cons:
+1. users might not save frequently enough so that we may lose data when some emergency happens.
+
+
+------------------
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Coding oriented version control systems tend to allow saving multiple files in one commit, because the files are highly connected.
+
+Normal files don't have these type of dependency generally, so we don't need to treat them all together.
+
+
+------------------
+How can you use the commands git log and git diff to view the history of files?
+
+git log:
+gives you all the commits with the comments on this version;
+git diff:
+compares two versions.
+
+
+------------------
+How might using version control make you more confident to make changes that could break something?
+
+It's always easy to jump back to the previous version by using "git checkout".
+
+
+------------------
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Let's try to use it for every projects we do! :)
+
+
+------------------ 
