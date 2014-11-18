@@ -37,4 +37,3 @@ gives us a tree-like structure that tells us the lineage of the commits. We can 
 
 ----------------------
 
-
