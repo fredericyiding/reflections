@@ -43,4 +43,8 @@ The way Git does is to compare the changes and based on whether or not the progr
 The diagram gives us a better way to understand the lineage and track changes between the commit of interest with the previous commits, esp., its parent commit.
 
 ----------------------
+What are the pros and cons of Git's automatic mergin vs. always doing merges mannually?
+
+The automatic merging makes it much easier to combine the two features together. The down side for this is when there is a conflict. In this later case, we will have to manually find out the conflicting point and fix it.
+
 
